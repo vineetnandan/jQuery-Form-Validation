@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Validation Check</title>
+		<meta name="viewport" content="width=device-width , initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript" src="js/main.js"></script>
+		
+	</head>
+	<body onload="validation()">
+		<header>
+			<h2>Form Validation</h2>
+		</header>
+		<div id="container">
+			<p>
+				<label>First Name</label>
+				<input type="text" id="first_name" placeholder="Enter First Name">
+				<label id="fn-tip"></label>
+			</p>
+			<p>
+				<label>Last Name</label>
+				<input type="text" id="last_name" placeholder="Enter Last Name">
+				<label id="ln-tip"></label>
+			</p>
+			<p>
+				<label>Mobile No.</label>
+				<input type="text" id="mobile" placeholder="Enter Mobile no.">
+				<label id="mob-tip"></label>
+			</p>
+			<p>
+				<label>Email</label>
+				<input type="text" id="email" placeholder="Enter Email">
+				<label id="mail-tip"></label>
+			</p>
+			<p>
+				<label>Confirm Email</label>
+				<input type="text" id="cemail" placeholder="Confirm Email">
+				<label id="cmail-tip"></label>
+			</p>
+			<p>
+				<label>Enter Date</label>
+				<input type="text" id="date" placeholder="Enter Date">
+				<label id="d-tip"></label>
+			</p>
+			<p>
+				<button id="submit" onclick="submit()">Submit</button>
+			</p>
+		</div>
+		<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+	</body>
+</html>
